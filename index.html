@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <title>PORTAFOLIO</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<!-- iconos de font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<!-- mis propios estilos css -->
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Menu lateral -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove">Cerrar</i>
+    </a>
+    <img src="img/img009.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTAFOLIO</b></h4>
+    <p class="w3-text-grey">Mi Portafolio 1.0</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTAFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>SOBRE MI</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACTAME</a>
+  </div>
+  <!-- PLUGINS -->
+  <div class="w3-panel w3-large">
+    <!-- plugins facebook -->
+    <a href="#"><i class="fab fa-facebook-square"></i></a>
+     <!-- plugins Instagram -->
+    <a href="#">     <i class="fab fa-instagram"></i></a>
+     <!-- plugins Twitter -->
+     <a href="#"><i class="fab fa-twitter-square"></i></a>
+     <!-- plugins snapchat -->
+     <a href="#"><i class="fab fa-snapchat-square"></i></a>
+
+   
+  </div>
+</nav>
+
+<!-- EFECTOS PARA ABRIR Y CERRAR EL MENU LATERAL-->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <!-- <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a> -->
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Mi Portafolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filtros:</span> 
+      <button class="w3-button w3-black">Contenido Completo</button>
+      <button class="w3-button w3-white"><i class="far fa-gem"></i> Diseño</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fas fa-image"></i> Fotos</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Arte</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- Columnas con Fotos-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/mySlider/my1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/mySlider/my2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+
+    <div class="w3-third w3-container">
+      <img src="img/mySlider/my3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Segunda columna de imagenes-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/mySlider/my4.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/mySlider/my5.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img/mySlider/my6.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <center>
+    <div class="w3-col m6">
+      <img class="img_me" src="img/img007.jpg" alt="Me">
+    </div>
+   
+    <div class="w3-col m6">
+      <img class="img_me" src="img/img009.jpg" alt="Me">
+    </div>
+    </center>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Sobre Mi</b></h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <hr>
+    
+    <h4>Tecnologías</h4>
+
+    <p>html5</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+    </div>
+    <p>css3</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+    <p>JavaScript</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>php</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+    <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+        <i class="fa fa-download w3-margin-right"></i>Download Resume
+      </button>
+    </p>
+    <hr>
+    
+    <h4>How much I charge</h4>
+    <!-- Pricing Tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Basico</li>
+          <li class="w3-padding-16">Diseño Web</li>
+          <li class="w3-padding-16">Base de Datos</li>
+          <li class="w3-padding-16">Plataformas Digitales</li>
+          <li class="w3-padding-16">Soporte Tecnico</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">Mensual</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Registrate</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-teal w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Diseño Web</li>
+          <li class="w3-padding-16">Base de Datos</li>
+          <li class="w3-padding-16">Actualizacion de Plataformas</li>
+          <li class="w3-padding-16">Rendimiento Tecnico</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">Mensual</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Registrate</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+          <li class="w3-padding-16">Diseño Web</li>
+          <li class="w3-padding-16">Base de Datos</li>
+          <li class="w3-padding-16">40 Terabaytes</li>
+          <li class="w3-padding-16">Soporte Tecnico</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">Mensual</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Registrate</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contactame</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>maikelberbi@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Santo Domingo, RD</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>809-818-5053</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Nombre</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Correo Electronico</label>
+        <input class="w3-input w3-border" type="email" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Contraseña</label>
+        <input class="w3-input w3-border" type="passoword" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Mensaje</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Eviar</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>Lorem ipsum</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p><a href="">Derechos de copia</a></p>
+    </div>
+
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Hecho Por @MKL</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>

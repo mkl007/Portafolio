@@ -1,0 +1,11 @@
+
+.img_me{
+  width:50%;
+  height:150px;
+  border-radius: 100%;
+  border:1px solid black;
+}
+.w3-round{
+  border-radius: 100%;
+  border:1px solid black;
+}
